@@ -4,6 +4,7 @@ $dbopts = parse_url( getenv( 'DATABASE_URL' ) );
 
 return [
     'default' => 'default',
+    'migrations' => 'migrations',
     'connections' => [
         'default' => [
             'driver' => 'pgsql',
